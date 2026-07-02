@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Task9 {
+public class Task4_9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
