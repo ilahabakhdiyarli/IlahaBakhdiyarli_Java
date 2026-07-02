@@ -4,15 +4,15 @@ public class Task4_5 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Tam eded (int) daxil edin: ");
-        int tamEded = sc.nextInt();
-        double tamEded1 = tamEded; // widening
+        int tam = sc.nextInt();
+        double tamDouble = tam; // widening
+        System.out.println("Tam eded double: " + tamDouble);
 
-        System.out.println("Tam eded: " + tamEded1);
 
         System.out.print("Onluq eded (double) daxil edin: ");
         double onluqEded = sc.nextDouble();
-        int bInt = (int) onluqEded;// (int) kəsr hissəsini atır (yuvarlamır): 9.87 yox 9 verir
+        int onluqInt = (int) onluqEded;// (int) kəsr hissəsini atır (yuvarlamır): 9.87 yox 9 verir
 
-        System.out.println("int b: " + bInt);
+        System.out.println("Onluq eded int: " + onluqInt);
 
     }}
