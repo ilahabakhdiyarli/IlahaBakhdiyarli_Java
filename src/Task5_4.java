@@ -11,9 +11,8 @@ public class Task5_4 {
 
         boolean uygunIl = (il % 4 == 0 && il % 100 != 0) || (il % 400 == 0);
 
-        {
             System.out.println(uygunIl ? "Uyğun il" : "Uyğun deyil");
-        }
+
         sc.close();
     }
 }

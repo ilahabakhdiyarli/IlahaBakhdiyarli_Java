@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Task5_8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -25,4 +26,5 @@ public class Task5_8 {
             System.out.println("Belə üçbucaq mövcud deyil");
         }
         sc.close();
-    }}
+    }
+}

@@ -20,5 +20,6 @@ public class Task5_11 {
 
 
         }
+        sc.close();
     }
 }

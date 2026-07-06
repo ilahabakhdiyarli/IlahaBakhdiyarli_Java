@@ -25,9 +25,11 @@ public class Task5_6 {
                 System.out.println("Nəticə: " + (eded1 * eded2));
                 break;
             case "/":
-                if (eded2 == 0)
-
+                if (eded2 == 0) {
+                    System.out.println("0-a bölmək olmaz!");
+                } else {
                     System.out.println("Nəticə: " + (eded1 / eded2));
+                }
                 break;
             default:
                 System.out.println("Naməlum əməliyyat işarəsi!");
