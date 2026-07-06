@@ -13,13 +13,16 @@ public class Task5_8 {
         int c = sc.nextInt();
 //Xarici if üçbucağın mümkünlüyünü (&& ilə üç şərt) yoxlayır,
 // daxili if-else if-else isə yalnız mümkün olduqda növü müəyyən edir — iç-içə şərt strukturu.
-        if (a<b+c || b<a+c || c<a+b);{
-        if (a == b && b == c) {
-            System.out.println("Bərabərtərəfli");
-        } else if (a==b||b==c||a==c) {
-            System.out.println("Bərabəryanli");
+        if (a < b + c && b < a + c && c < a + b) {
+            if (a == b && b == c) {
+                System.out.println("Bərabərtərəfli");
+            } else if (a == b || b == c || a == c) {
+                System.out.println("Bərabəryanlı");
+            } else {
+                System.out.println("Müxtəliftərəfli");
+            }
         } else {
-                System.out.println("Belə üçbucaq mövcud deyil");
-    }}
+            System.out.println("Belə üçbucaq mövcud deyil");
+        }
         sc.close();
     }}
