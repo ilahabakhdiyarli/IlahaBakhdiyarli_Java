@@ -30,7 +30,5 @@ public class Task6_7 {
 
         System.out.println("Siz gizli rəqəmi cəmi " + cehd + " cəhddə tapdınız!");
         sc.close();
-
-//Kodda gizli bir ədəd (məs. int gizli = 42) təyin et. İstifadəçi düzgün tapana qədər ədəd daxil etsin;
-// hər cəhddən sonra "Böyükdür", "Kiçikdir" və ya "Tapdın!" göstər, sonda neçə cəhd apardığını çap et.
-    }}
+    }
+}
