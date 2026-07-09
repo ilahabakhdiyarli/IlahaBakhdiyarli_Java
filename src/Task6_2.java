@@ -34,16 +34,3 @@ public class Task6_2 {
             }
         }
 
-
-
-
-
-
-
-
-//Sinifin orta balı
-//10 tələbənin balını ardıcıl daxil et (məs. Scanner ilə bir-bir soruşaraq), cəmini və orta balını hesabla.
-// Orta bal 70-dən yuxarıdırsa "Sinif uğurludur", aşağıdırsa "Əlavə işə ehtiyac var" çap et.
-
-
-
