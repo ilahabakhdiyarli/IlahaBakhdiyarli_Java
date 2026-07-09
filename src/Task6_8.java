@@ -5,7 +5,7 @@ public class Task6_8 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Zəhmət olmasa yaşınızı daxil edin: ");
         int yas = sc.nextInt();
-        int biletQiymeti = 0;
+        int biletQiymeti;
 
 
         if (yas >= 0 && yas <= 7) {
