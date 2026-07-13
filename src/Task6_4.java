@@ -19,7 +19,7 @@ public class Task6_4 {
 
         // Dövr bitəndən sonra yaddaşda qalan ən böyük rəqəmi çap edirik
         System.out.println("Nəticə: Ən çox vurulan qol sayı " + maxQol + " oldu!");
-
+        System.out.println("Nəticə: Qol vuran futbolcu: " + maxQol + " oldu!");
         sc.close();
     }
 }

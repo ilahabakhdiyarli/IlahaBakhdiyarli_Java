@@ -21,13 +21,3 @@ if (score>=90) {
         sc.close();
     }
 }
-
-
-
-
-//Qiymətləndirmə hesabatı
-//1-dən 100-ə qədər bal alan tələbənin balını daxil et. Balı hərfi qiymətə çevir (
-// 90+ Əla,
-// 70-89 Yaxşı,
-// 50-69 Kafi,
-// aşağı Qeyri-kafi) və nəticəni "Bal: X → Qiymət: Y" formatında çap et.
