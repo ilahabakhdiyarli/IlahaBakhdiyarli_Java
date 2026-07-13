@@ -9,3 +9,4 @@ Aşağıdakı keçidlərdən istifadə edərək hər bir tapşırığın yazıld
 * [🔗 Tapşırıq 4 (Branch: 4)](https://github.com/ilahabakhdiyarli/IlahaBakhdiyarli_Java/tree/4)
 * [🔗 Tapşırıq 5 (Branch: 5)](https://github.com/ilahabakhdiyarli/IlahaBakhdiyarli_Java/tree/5)
 * [🔗 Tapşırıq 6 (Branch: 6)](https://github.com/ilahabakhdiyarli/IlahaBakhdiyarli_Java/tree/6)
+* [🔗 Tapşırıq 7 (Branch: 7)](https://github.com/ilahabakhdiyarli/IlahaBakhdiyarli_Java/tree/7)
