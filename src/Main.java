@@ -2,20 +2,21 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("---Task3---");
-        Menecer isci = new Menecer("Ilaha");
-        isci.teqdimat();
-        isci.vezifem();
+        System.out.println("---Task5---");
+        Kalkulyator calc = new Kalkulyator();
+        int test1 = calc.vurma(4, 5);
+        System.out.println(test1);
+        System.out.println(calc.vurma(4, 5, 6));
+        System.out.println(calc.vurma(4.5, 5.6));
 
-        Developer isci2 = new Developer("Ivan");
-        isci2.teqdimat();
-        isci2.vezifem();
-
-        System.out.println("---Task4---");
-        EmanetHesab hesab = new EmanetHesab("Yigim hesabi");
-        hesab.balansArtir(260);
-        hesab.faizTetbiqEt(30);
-        System.out.println("Son balans: "+ hesab.getBalans());
+        System.out.println("---Task6---");
+        EmailBildiris email = new EmailBildiris();
+        SmsBildiris sms = new SmsBildiris();
+        PushBildiris pb = new PushBildiris();
+        Bildiris[] b = {email,sms,pb};
+        for (Bildiris bildiris : b) {
+            System.out.println(bildiris.mesajGonder());
+        }
     }
 }
 
