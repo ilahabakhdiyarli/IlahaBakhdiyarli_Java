@@ -2,22 +2,20 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        System.out.println("---Task3---");
+        Menecer isci = new Menecer("Ilaha");
+        isci.teqdimat();
+        isci.vezifem();
 
-        Telefon tel = new Telefon();
-        tel.setBatareya(200);
-        int result = tel.getBatareya();
-        System.out.println("Hazirki batareya faizi: " + result);
-        tel.setBatareya(25);
-        result = tel.getBatareya();
-        System.out.println("Hazirki batareya faizi: " + result);
-        tel.setBatareya(-54);
-        result = tel.getBatareya();
-        System.out.println("Hazirki batareya faizi: " + result);
+        Developer isci2 = new Developer("Ivan");
+        isci2.teqdimat();
+        isci2.vezifem();
 
-        Telebe telebe = new Telebe("Ilaha");
-
-        telebe.setBal(67);
-        telebe.printNetice();
+        System.out.println("---Task4---");
+        EmanetHesab hesab = new EmanetHesab("Yigim hesabi");
+        hesab.balansArtir(260);
+        hesab.faizTetbiqEt(30);
+        System.out.println("Son balans: "+ hesab.getBalans());
     }
 }
 
