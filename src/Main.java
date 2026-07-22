@@ -2,12 +2,8 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-
-        PDFSened pdf = new PDFSened("Hesabat.pdf");
-        pdf.capEt();
-
-        WordSened word = new WordSened("Müqavilə.docx");
-        word.capEt();
+        Servis s = new Servis();
+        s.log("Mesaj aktivdir");
     }
 }
 
